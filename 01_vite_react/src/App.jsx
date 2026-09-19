@@ -1,5 +1,14 @@
+import Hello from "./hello";
+
 function App() {
-  return <h1>Fun with vite | MR</h1>;
+  return (
+    // fragments
+    <>
+      <Hello />
+      <h2>Fun with React</h2>
+      <p>React series</p>
+    </>
+  );
 }
 
 export default App;
